@@ -6,7 +6,7 @@ const admin = require('firebase-admin');
 const port = process.env.PORT || 5000;
 const { MongoClient } = require('mongodb');
 const ObjectId = require('mongodb').ObjectId;
-const serviceAccount = JSON.parse(process.env.FIREBASE_SERVICE_ACCOUNT);
+const serviceAccount = require('./autoexpress2-c0800-firebase-adminsdk.json');
 
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),
