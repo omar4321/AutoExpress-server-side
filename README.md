@@ -15,5 +15,4 @@
  -  Heroku.
  -  React Router.
  -  Firebase.
- -  React-Scroll.  
-
+ -  React-Scroll
